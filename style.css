@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+}
+input {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+input:focus-visible {
+  outline: 2px solid #66b7ff;
+  outline-offset: 3px;
+}
