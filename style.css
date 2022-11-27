@@ -1,6 +1,9 @@
 body {
+  margin: 0;
+  padding: 0;
   display: flex;
   min-height: 100vh;
+  box-sizing: border-box;
   align-items: center;
   justify-content: center;
   background-color: #222;
@@ -8,8 +11,8 @@ body {
 input {
   border: none;
   padding: 10px 20px;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
   border-radius: 10px;
 }
 input:focus-visible {
